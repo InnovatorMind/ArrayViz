@@ -1,0 +1,50 @@
+#inputBox {
+    transform: matrix(#42bbe7);
+    border: 2px solid rgb(0, 0, 0,.5);
+    max-width: 400px;
+    max-height: 200px;
+    position: absolute;
+    bottom: 30%;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #ffffffd6;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0,0.5);
+    visibility: hidden;
+}
+
+.cross {
+    text-align: right;
+    padding: 4px;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.text {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.inputArea {
+    margin: 10px 0px;
+    padding: 10px 8px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+}
+
+.inputArea> input {
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    padding: 10px;
+}
+
+#submitVal {
+    margin: 20px 0px;
+    display: block;
+    padding: 10px;
+    background-color: #42bbe7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body, html {
+   width: 100%;
+   height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+#container {
+    margin: 20px auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#controls {
+    padding: 20px;
+    width: 100%;
+}
+
+.eleBox {
+    /* border: 1px solid red; */
+    padding-top: 0px;
+}
+
+.charSpace {
+    height: 50px;
+    width: 50px;
+}
+
+.charSpace> img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.element {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    color: #1900ff;
+    font-weight: 700;
+    font-size: x-large;
+    padding: 8px;
+    border: 3px solid rgb(0, 0, 0,0.6);
+    overflow: hidden;
+}
+
+.index {
+    border: 2px solid rgb(0, 0, 0,.3);
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#controls {
+    background-color: #e9d6d6;
+    height: 15%;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#submitVal {
+    padding: 5px;
+    width: 100px;
+}
+
